@@ -55,6 +55,11 @@ static NSMutableArray * teamPool;
 {
     Team *sameNameTeam = [Team teamWithName:name];
     
+    if (!name || !stadium || [name isEqualToString:@""] || [stadium isEqualToString:@""]) {
+        NSLog(@"Couldn't create team. Check for nil parameters");
+        return nil;
+    }
+    
     if (sameNameTeam) {
         NSLog(@"Couldn't create team %@. Another team with the same name exists", name);
         return nil;
@@ -64,6 +69,43 @@ static NSMutableArray * teamPool;
     [teamPool addObject:newTeam];
     
     return newTeam;
+}
+
++ (NSString *)stringFromTeamColorType:(TeamColorType)color
+{
+    switch (color) {
+        case TeamColorBlue:
+            return @"blue";
+        case TeamColorRed:
+            return @"red";
+        case TeamColorGreen:
+            return @"green";
+        case TeamColorWhite:
+            return @"white";
+        case TeamColorPurple:
+            return @"purple";
+        case TeamColorYellow:
+            return @"yellow";
+        default:
+            return nil;
+    }
+}
+
++ (TeamColorType)teamColorTypeFromString:(NSString *)stringColor
+{
+    if ([stringColor isEqualToString:@"blue"]) {
+        return TeamColorBlue;
+    } else if ([stringColor isEqualToString:@"red"]) {
+        return TeamColorRed;
+    } else if ([stringColor isEqualToString:@"green"]) {
+        return TeamColorGreen;
+    } else if ([stringColor isEqualToString:@"white"]) {
+        return TeamColorWhite;
+    } else if ([stringColor isEqualToString:@"purple"]) {
+        return TeamColorPurple;
+    } else {
+        return TeamColorYellow;
+    }
 }
 
 @end

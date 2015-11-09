@@ -27,5 +27,7 @@ typedef enum {
 + (Team *)teamWithName:(NSString *)name;
 + (NSMutableArray *)teams;
 + (Team *)createTeamWithName:(NSString *)name stadium:(NSString *)stadium color:(TeamColorType)color;
++ (NSString *)stringFromTeamColorType:(TeamColorType)color;
++ (TeamColorType)teamColorTypeFromString:(NSString *)stringColor;
 
 @end

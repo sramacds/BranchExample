@@ -127,7 +127,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stadium Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVh-fa-a9X">
-                                                <rect key="frame" x="104" y="86" width="113" height="20"/>
+                                                <rect key="frame" x="104" y="77" width="113" height="20"/>
                                                 <animations/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="113" id="8zn-Ui-PC7"/>
@@ -137,20 +137,26 @@
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qAY-mE-uK0">
-                                                <rect key="frame" x="18" y="40" width="284" height="30"/>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qAY-mE-uK0">
+                                                <rect key="frame" x="18" y="40" width="284" height="21"/>
                                                 <animations/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="SP2-XF-amX"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7jY-oR-Ohl">
-                                                <rect key="frame" x="18" y="110" width="284" height="30"/>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7jY-oR-Ohl">
+                                                <rect key="frame" x="18" y="101" width="284" height="21"/>
                                                 <animations/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="dWZ-9y-7gT"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZ7-r0-DNf">
-                                                <rect key="frame" x="210" y="180" width="40" height="40"/>
+                                                <rect key="frame" x="210" y="162" width="40" height="40"/>
                                                 <animations/>
                                                 <color key="backgroundColor" red="0.1750899118" green="0.94117647059999998" blue="0.33418395429999997" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
@@ -161,7 +167,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYa-Wh-95X">
-                                                <rect key="frame" x="258" y="180" width="40" height="40"/>
+                                                <rect key="frame" x="258" y="162" width="40" height="40"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
@@ -186,7 +192,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVF-Vc-QDj">
-                                                <rect key="frame" x="18" y="180" width="40" height="40"/>
+                                                <rect key="frame" x="18" y="162" width="40" height="40"/>
                                                 <animations/>
                                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
@@ -197,7 +203,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hlj-3H-aLs">
-                                                <rect key="frame" x="66" y="180" width="40" height="40"/>
+                                                <rect key="frame" x="66" y="162" width="40" height="40"/>
                                                 <animations/>
                                                 <color key="backgroundColor" red="1" green="0.088357965849999998" blue="0.1231340707" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
@@ -208,7 +214,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0r-NE-wdf">
-                                                <rect key="frame" x="114" y="180" width="40" height="40"/>
+                                                <rect key="frame" x="114" y="162" width="40" height="40"/>
                                                 <animations/>
                                                 <color key="backgroundColor" red="1" green="0.90588235289999997" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
@@ -219,7 +225,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wcm-VR-0Gb">
-                                                <rect key="frame" x="162" y="180" width="40" height="40"/>
+                                                <rect key="frame" x="162" y="162" width="40" height="40"/>
                                                 <animations/>
                                                 <color key="backgroundColor" red="0.69803921570000005" green="0.4549019608" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
@@ -267,7 +273,7 @@
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Main Color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="94c-1d-aCi">
-                                        <rect key="frame" x="119" y="156" width="83" height="20"/>
+                                        <rect key="frame" x="119" y="138" width="83" height="20"/>
                                         <animations/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="fNZ-fr-fpS"/>

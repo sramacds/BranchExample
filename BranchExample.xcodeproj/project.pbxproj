@@ -10,7 +10,6 @@
 		3D3D8FE771AD710CACFA2DB8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9262156795033DD47700456C /* libPods.a */; };
 		AF5389191BED14730057AEC7 /* CreateTeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5389181BED14730057AEC7 /* CreateTeamViewController.m */; settings = {ASSET_TAGS = (); }; };
 		AF53891D1BED14F10057AEC7 /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = AF53891C1BED14F10057AEC7 /* Team.m */; settings = {ASSET_TAGS = (); }; };
-		AF5389221BED15690057AEC7 /* BranchController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5389211BED15690057AEC7 /* BranchController.m */; settings = {ASSET_TAGS = (); }; };
 		AF5389251BED15F60057AEC7 /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5389241BED15F60057AEC7 /* TeamViewController.m */; settings = {ASSET_TAGS = (); }; };
 		AF53892C1BED33940057AEC7 /* TeamsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF53892B1BED33940057AEC7 /* TeamsTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		AF5389311BED345C0057AEC7 /* TeamTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF53892F1BED345B0057AEC7 /* TeamTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
@@ -32,8 +31,6 @@
 		AF5389181BED14730057AEC7 /* CreateTeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateTeamViewController.m; sourceTree = "<group>"; };
 		AF53891B1BED14F10057AEC7 /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
 		AF53891C1BED14F10057AEC7 /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
-		AF5389201BED15690057AEC7 /* BranchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BranchController.h; sourceTree = "<group>"; };
-		AF5389211BED15690057AEC7 /* BranchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BranchController.m; sourceTree = "<group>"; };
 		AF5389231BED15F60057AEC7 /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
 		AF5389241BED15F60057AEC7 /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
 		AF53892A1BED33940057AEC7 /* TeamsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamsTableViewController.h; sourceTree = "<group>"; };
@@ -92,15 +89,6 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
-		AF53891F1BED155A0057AEC7 /* Branch */ = {
-			isa = PBXGroup;
-			children = (
-				AF5389201BED15690057AEC7 /* BranchController.h */,
-				AF5389211BED15690057AEC7 /* BranchController.m */,
-			);
-			name = Branch;
-			sourceTree = "<group>";
-		};
 		AF5389261BED15FA0057AEC7 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,7 +135,6 @@
 			isa = PBXGroup;
 			children = (
 				AF53891A1BED14D90057AEC7 /* Model */,
-				AF53891F1BED155A0057AEC7 /* Branch */,
 				AF5389261BED15FA0057AEC7 /* ViewControllers */,
 				AF53892D1BED343A0057AEC7 /* Cells */,
 				AFA5D43E1BEA6DDC003215AD /* AppDelegate.h */,
@@ -281,7 +268,6 @@
 				AF5389251BED15F60057AEC7 /* TeamViewController.m in Sources */,
 				AF5389311BED345C0057AEC7 /* TeamTableViewCell.m in Sources */,
 				AF53891D1BED14F10057AEC7 /* Team.m in Sources */,
-				AF5389221BED15690057AEC7 /* BranchController.m in Sources */,
 				AFA5D4431BEA6DDC003215AD /* ViewController.m in Sources */,
 				AFA5D4401BEA6DDC003215AD /* AppDelegate.m in Sources */,
 				AFA5D43D1BEA6DDC003215AD /* main.m in Sources */,

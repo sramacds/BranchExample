@@ -57,7 +57,7 @@
     } else {
         
         UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Error"
-                                                                                 message:@"Another team with the same name already exists"
+                                                                                 message:@"Team wasn't created"
                                                                           preferredStyle:UIAlertControllerStyleAlert];
         UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"Ok"
                                                            style:UIAlertActionStyleCancel

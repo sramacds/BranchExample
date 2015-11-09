@@ -7,6 +7,7 @@
 //
 
 #import "TeamViewController.h"
+#import <Branch.h>
 
 @interface TeamViewController ()
 
@@ -14,6 +15,7 @@
 @property (weak, nonatomic) IBOutlet UIView *colorView;
 @property (weak, nonatomic) IBOutlet UILabel *teamNameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *teamStadiumLabel;
+@property (weak, nonatomic) IBOutlet UILabel *branchLinkLabel;
 
 @end
 
@@ -61,6 +63,23 @@
 
     self.teamNameLabel.text = team.name;
     self.teamStadiumLabel.text = team.stadium;
+}
+
+- (IBAction)shareMyTeam:(id)sender
+{
+    Team *team = [Team teamWithName:self.teamName];
+    
+    NSDictionary *params = @{
+                             @"name" : team.name,
+                             @"color" : [Team stringFromTeamColorType:team.mainColor],
+                             @"stadium" : team.stadium
+                             };
+    
+    NSString *branchLinkString = [[Branch getInstance] getShortURLWithParams:params andChannel:nil andFeature:@"Team"];
+    self.branchLinkLabel.text = branchLinkString;
+    
+    UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
+    [pasteboard setString:branchLinkString];
 }
 
 @end
